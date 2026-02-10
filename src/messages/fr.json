@@ -1,0 +1,123 @@
+{
+    "header": {
+        "home": "Accueil",
+        "language": "FR"
+    },
+    "presentation": {
+        "name": "BOU JABER RANDY",
+        "status": "Étudiant en BUT Informatique",
+        "tagline": "Passionné par le développement et l'innovation technologique.",
+        "downloadCV": "Télécharger mon CV"
+    },
+    "timeline": {
+        "title": "Mon Parcours",
+        "gear1": {
+            "title": "Baccalauréat général",
+            "location": "Lycée Émily-Brontë, ",
+            "date": "2022 - 2023",
+            "description": "Baccalauréat général mention Bien, spécialités Mathématiques / Physique-chimie."
+        },
+        "gear2": {
+            "title": "BUT 1ère année",
+            "location": "Université Gustave Eiffel,",
+            "date": "2023 - 2024",
+            "description": "Introduction à la programmation, algorithmique, bases de données et réseaux."
+        },
+        "gear3": {
+            "title": "BUT 2ème année",
+            "location": "Université Gustave Eiffel,",
+            "date": "2024 - 2025",
+            "description": "Développement web avancé, architecture logicielle et gestion de projet."
+        },
+        "gear4": {
+            "title": "Stage",
+            "location": "IDM,",
+            "date": "2025",
+            "description": "Stage de 4 mois spécialisé en développement web React / Next.JS."
+        },
+        "gear5": {
+            "title": "BUT 3ème année",
+            "location": "Université Gustave Eiffel,",
+            "date": "2025 - 2026",
+            "description": "Spécialisation en développement d'applications et projets avancés."
+        },
+        "gear6": {
+            "title": "Alternance",
+            "location": "IDM,",
+            "date": "2025 - 2026",
+            "description": "Alternance d'un an spécialisée en développement web React / Next.JS."
+        },
+        "gear7": {
+            "title": "L'Avenir",
+            "location": "À déterminer",
+            "date": "2026+",
+            "description": "Prêt pour de nouveaux défis en ingénierie logicielle et développement web."
+        }
+    },
+    "projects": {
+        "title": "Mes Projets",
+        "viewProject": "Voir le projet",
+        "project1": {
+            "title": "PROJET TRAVIA",
+            "date": "2024",
+            "description": "Description du premier projet..."
+        },
+        "project2": {
+            "title": "PROJET SPEEDYWIKI",
+            "date": "2025",
+            "description": "Description du deuxième projet..."
+        },
+        "project3": {
+            "title": "PROJET PLURI'ELLES",
+            "date": "2025 - 2026",
+            "description": "Description du troisième projet..."
+        }
+    },
+    "skills": {
+        "title": "Mes Compétences",
+        "knowledge": {
+            "title": "Savoirs",
+            "subtitle": "Carte Grise",
+            "items": [
+                "Algorithmique",
+                "Bases de données",
+                "Réseaux",
+                "Architecture logicielle"
+            ]
+        },
+        "softSkills": {
+            "title": "Savoir-êtres",
+            "subtitle": "Permis de Conduire",
+            "items": [
+                "Travail en équipe",
+                "Communication",
+                "Adaptabilité",
+                "Autonomie"
+            ]
+        },
+        "hardSkills": {
+            "title": "Savoir-faire",
+            "subtitle": "Fiche Technique",
+            "items": [
+                "JavaScript/TypeScript",
+                "Python",
+                "Java",
+                "SQL",
+                "Git",
+                "Docker"
+            ]
+        }
+    },
+    "footer": {
+        "contact": "Me Contacter",
+        "phone": "+33 X XX XX XX XX",
+        "email": "email@exemple.com",
+        "linkedin": "linkedin.com/in/placeholder"
+    },
+    "sections": {
+        "presentation": "01",
+        "timeline": "02",
+        "projects": "03",
+        "skills": "04"
+    }
+}

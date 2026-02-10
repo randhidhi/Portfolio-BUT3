@@ -1,0 +1,127 @@
+{
+    "header": {
+        "home": "Home",
+        "language": "EN"
+    },
+    "presentation": {
+        "name": "BOU JABER RANDY",
+        "status": "Computer Science Student",
+        "tagline": "Interested in development and technological innovation.",
+        "downloadCV": "Download my Resume"
+    },
+    "timeline": {
+        "title": "My Journey",
+        "gear1": {
+            "title": "High School Diploma",
+            "location": "Lycée Émily-Brontë",
+            "date": "2022 - 2023",
+            "description": "Baccalauréat in Maths / Physics with honors."
+        },
+        "gear2": {
+            "title": "First Year - Bachelor's in CS",
+            "location": "Université Gustave Eiffel",
+            "date": "2023 - 2024",
+            "description": "Introduction to programming, algorithms, databases and networks."
+        },
+        "gear3": {
+            "title": "Second Year - Bachelor's in CS",
+            "location": "Université Gustave Eiffel",
+            "date": "2024 - 2025",
+            "description": "Advanced web development, software architecture and project management."
+        },
+        "gear4": {
+            "title": "Internship",
+            "location": "IDM",
+            "date": "2025",
+            "description": "4-month internship specialized in React / Next.JS web development."
+        },
+        "gear5": {
+            "title": "Third Year - Bachelor's in CS",
+            "location": "Université Gustave Eiffel",
+            "date": "2025 - 2026",
+            "description": "Specialization in application development and advanced project work."
+        },
+        "gear6": {
+            "title": "Apprenticeship",
+            "location": "IDM",
+            "date": "2025 - 2026",
+            "description": "Year-long apprenticeship specialized in React / Next.JS web development."
+        },
+        "gear7": {
+            "title": "The Future",
+            "location": "To be determined",
+            "date": "2026+",
+            "description": "Ready for new challenges in software engineering and web development."
+        }
+    },
+    "projects": {
+        "title": "My Projects",
+        "viewProject": "View project",
+        "project1": {
+            "title": "PROJECT-01",
+            "date": "2023",
+            "description": "Description of the first project..."
+        },
+        "project2": {
+            "title": "PROJECT-02",
+            "date": "2024",
+            "description": "Description of the second project..."
+        },
+        "project3": {
+            "title": "PROJECT-03",
+            "date": "2024",
+            "description": "Description of the third project..."
+        }
+    },
+    "skills": {
+        "title": "My Skills",
+        "knowledge": {
+            "title": "Knowledge",
+            "subtitle": "Registration Card",
+            "items": [
+                "Algorithms",
+                "Databases",
+                "Networks",
+                "Software Architecture"
+            ]
+        },
+        "softSkills": {
+            "title": "Soft Skills",
+            "subtitle": "Driver's License",
+            "items": [
+                "Teamwork",
+                "Communication",
+                "Adaptability",
+                "Autonomy"
+            ]
+        },
+        "hardSkills": {
+            "title": "Hard Skills",
+            "subtitle": "Technical Sheet",
+            "items": [
+                "JavaScript/TypeScript",
+                "React",
+                "Next.JS",
+                "Svelte",
+                "Python",
+                "Java",
+                "C",
+                "SQL",
+                "Git",
+                "Docker"
+            ]
+        }
+    },
+    "footer": {
+        "contact": "Contact Me",
+        "phone": "+33 6 56 86 77 08",
+        "email": "randyboujaber@hotmail.fr",
+        "linkedin": "linkedin.com/in/randy-bou-jaber"
+    },
+    "sections": {
+        "presentation": "01",
+        "timeline": "02",
+        "projects": "03",
+        "skills": "04"
+    }
+}
