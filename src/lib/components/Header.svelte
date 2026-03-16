@@ -1,15 +1,23 @@
 <script lang="ts">
 	import { setLocale, locale, t } from '../../messages/i18n';
-
+	
 	function scrollToTop() {
 		window.scrollTo({ top: 0, behavior: 'smooth' });
+	}
+
+	function backToHome() {
+		if (window.location.pathname === '/') {
+			scrollToTop();
+		} else {
+			window.location.href = '/';
+		}
 	}
 </script>
 
 <header class="header">
 	<div class="header-container">
-		<button class="logo-btn" onclick={() => scrollToTop()} aria-label={t($locale, 'header.home')}>
-			<span class="logo-text">PORTFOLIO</span>
+		<button class="logo-btn" onclick={() => backToHome()} aria-label={t($locale, 'header.home')}>
+			<span class="logo-text">{t($locale, 'header.title').toUpperCase()}</span>
 			<span class="logo-accent">.</span>
 		</button>
 

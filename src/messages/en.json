@@ -1,7 +1,8 @@
 {
     "header": {
         "home": "Home",
-        "language": "EN"
+        "language": "EN",
+        "title": "Portfolio"
     },
     "presentation": {
         "name": "BOU JABER RANDY",
@@ -58,30 +59,96 @@
         "title": "My Projects",
         "viewProject": "View project",
         "project1": {
-            "title": "PROJECT-01",
+            "title": "PROJECT TRAVIA",
             "date": "2023",
-            "description": "Description of the first project..."
+            "description": "A Star Wars themed project made for the reservation of spaceships for certain flights.",
+            "detailedDescription": "This project was to be carried out in a team of 4 and consisted of creating a website for booking flights for spaceships on the theme of Star Wars. We first had to create objects in PHP and a database to store the information of flights and reservations. Then, we had to implement an interactive Leaflet map to display the route of the chosen flight, calculating the total distance and its cost.",
+            "technologiesTitle": "Technologies used",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "PHP",
+                "Javascript",
+                "MySQL",
+                "Git"
+            ],
+            "teamTitle": "Team",
+            "team": [
+                "Randy BOU JABER",
+                "Loïc RAKOTONIARY",
+                "Martial CARCELES",
+                "Jérémy ZHENG"
+            ],
+            "demoTitle": "Demonstration of the Leaflet map",
+            "demoText": "Simulation / demonstration area of the project"
         },
         "project2": {
-            "title": "PROJECT-02",
-            "date": "2024",
-            "description": "Description of the second project..."
+            "title": "PROJECT SPEEDYWIKI",
+            "date": "2025",
+            "description": "A game where you have to visit 5 randomly chosen Wikipedia articles as fast as possible.",
+            "detailedDescription": "This project was to be carried out in a team of 4 and consisted of creating a web application on which users could create lobbies to play in multiplayer and race to reach the 5 randomly chosen Wikipedia articles. The technical complexity of this work was quite advanced: we had to set up a Websocket server to manage the different actions of the players in real time, use the Wikipedia API to retrieve the chosen articles and edit their content to adapt it to the game, and finally ensure that the application was supported on mobile. A Python solver was also created to find the shortest possible path between two articles.",
+            "technologiesTitle": "Technologies used",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "React",
+                "Typescript",
+                "Node.JS",
+                "Websocket",
+                "MongoDB / MongoDB Atlas",
+                "Python",
+                "Git"
+            ],
+            "teamTitle": "Team",
+            "team": [
+                "Randy BOU JABER",
+                "Jules Renaud--Grange",
+                "Martial CARCELES",
+                "Guillaume AUGERAUD"
+            ],
+            "demoTitle": "Demonstration of the solver",
+            "demoText": "Simulation / demonstration area of the project"
         },
         "project3": {
-            "title": "PROJECT-03",
-            "date": "2024",
-            "description": "Description of the third project..."
+            "title": "PROJECT PLURI'ELLES",
+            "date": "2025 - 2026",
+            "description": "A platform made to simplify the process of recruiting candidates using AI and other complex technologies.",
+            "detailedDescription": "This project was to be carried out in a team of 6 and is the most complex of the 3 presented on this Portfolio. Two web platforms had to be created: the first being an ATS (Applicant Tracking System) dedicated to simplifying the recruitment process for the company Pluri'Elles (text extraction from a CV by OCR, first spelling and grammar check, second content analysis, scoring according to the offer and profile summary made by AI), and the second being an E-Learning platform to train the company's employees (interactive quiz systems, VR module for certain training courses).",
+            "technologiesTitle": "Technologies used",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "React",
+                "Typescript",
+                "Next.JS",
+                "Python",
+                "Agent Mistral AI",
+                "PostgreSQL",
+                "Prisma",
+                "Git",
+                "Docker"
+            ],
+            "teamTitle": "Team",
+            "team": [
+                "Randy BOU JABER",
+                "Julien SYNAEVE",
+                "Alexis TELLE",
+                "Damien TREMERIE",
+                "Hélène RALU--LEROY",
+                "Romain LONCIN"
+            ],
+            "demoTitle": "Demonstration of the OCR model",
+            "demoText": "Simulation / demonstration area of the project"
         }
     },
     "skills": {
-        "title": "My Skills",
+        "title": "Hard Skills",
         "knowledge": {
             "title": "Knowledge",
             "subtitle": "Registration Card",
             "items": [
                 "Algorithms",
                 "Databases",
-                "Networks",
                 "Software Architecture"
             ]
         },
@@ -92,6 +159,7 @@
                 "Teamwork",
                 "Communication",
                 "Adaptability",
+                "Stress management",
                 "Autonomy"
             ]
         },
@@ -99,16 +167,17 @@
             "title": "Hard Skills",
             "subtitle": "Technical Sheet",
             "items": [
-                "JavaScript/TypeScript",
-                "React",
-                "Next.JS",
-                "Svelte",
-                "Python",
-                "Java",
-                "C",
-                "SQL",
-                "Git",
-                "Docker"
+                "JavaScript / TypeScript,80",
+                "React,80",
+                "Next.JS,80",
+                "Svelte,75",
+                "Python,70",
+                "Java,70",
+                "Git,60",
+                "C,55",
+                "SQL,55",
+                "Solr,50",
+                "Docker,40"
             ]
         }
     },

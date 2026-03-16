@@ -9,7 +9,7 @@
 			<p class="status">{t($locale, 'presentation.status')}</p>
 			<p class="tagline">{t($locale, 'presentation.tagline')}</p>
 
-			<a href="/cv.pdf" download class="btn btn-primary cv-btn">
+			<a href="/documents/CV.pdf" download class="btn btn-primary cv-btn">
 				<svg class="cv-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
 					<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
 					<polyline points="7,10 12,15 17,10" />
@@ -17,15 +17,6 @@
 				</svg>
 				{t($locale, 'presentation.downloadCV')}
 			</a>
-		</div>
-
-		<div class="presentation-photo">
-			<div class="photo-frame">
-				<div class="photo-placeholder">
-					<span class="photo-text">PHOTO</span>
-				</div>
-			</div>
-			<div class="photo-accent"></div>
 		</div>
 	</div>
 
@@ -101,56 +92,6 @@
 		height: 20px;
 	}
 
-	.presentation-photo {
-		flex-shrink: 0;
-		position: relative;
-	}
-
-	.photo-frame {
-		width: 280px;
-		height: 280px;
-		border-radius: 50%;
-		padding: 4px;
-		background: linear-gradient(
-			135deg,
-			var(--color-racing-red) 0%,
-			var(--color-chrome) 50%,
-			var(--color-racing-red) 100%
-		);
-		position: relative;
-	}
-
-	.photo-placeholder {
-		width: 100%;
-		height: 100%;
-		border-radius: 50%;
-		background: var(--color-carbon-light);
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		overflow: hidden;
-	}
-
-	.photo-text {
-		font-family: var(--font-display);
-		font-size: var(--text-xl);
-		font-weight: 700;
-		color: var(--color-chrome-dark);
-		letter-spacing: 0.2em;
-	}
-
-	.photo-accent {
-		position: absolute;
-		bottom: -10px;
-		right: -10px;
-		width: 80px;
-		height: 80px;
-		background: var(--color-racing-red);
-		border-radius: 50%;
-		opacity: 0.3;
-		filter: blur(20px);
-	}
-
 	/* Racing decoration */
 	.racing-elements {
 		position: absolute;
@@ -223,11 +164,6 @@
 
 		.presentation-text {
 			max-width: 100%;
-		}
-
-		.photo-frame {
-			width: 200px;
-			height: 200px;
 		}
 
 		.racing-elements {

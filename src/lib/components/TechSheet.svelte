@@ -32,11 +32,12 @@
 	<div class="sheet-body">
 		<div class="specs-grid">
 			{#each items as item, index}
+				{@const [name, level] = item.split(',')}
 				<div class="spec-item">
 					<div class="spec-bar">
-						<div class="spec-fill" style="width: {80 + Math.random() * 20}%"></div>
+						<div class="spec-fill" style="width: {level}%"></div>
 					</div>
-					<span class="spec-label">{item}</span>
+					<span class="spec-label">{name}</span>
 				</div>
 			{/each}
 		</div>

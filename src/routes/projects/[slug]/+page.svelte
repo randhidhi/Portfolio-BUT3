@@ -1,6 +1,9 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { t, locale } from '../../../messages/i18n';
+	import LeafletDemo from '$lib/components/demos/LeafletDemo.svelte';
+	import DijkstraDemo from '$lib/components/demos/DijkstraDemo.svelte';
+	import OcrDemo from '$lib/components/demos/OcrDemo.svelte';
 
 	const slug = $derived($page.params.slug);
 
@@ -9,7 +12,7 @@
 </script>
 
 <svelte:head>
-	<title>{t($locale, `projects.${projectKey}.title`)} - Portfolio</title>
+	<title>{t($locale, `projects.${projectKey}.title`)} - {t($locale, `header.title`)}</title>
 </svelte:head>
 
 <main class="project-page">
@@ -19,7 +22,7 @@
 				<line x1="19" y1="12" x2="5" y2="12"></line>
 				<polyline points="12 19 5 12 12 5"></polyline>
 			</svg>
-			Retour aux projets
+			{t($locale, `projects.back`)}
 		</a>
 
 		<header class="project-header">
@@ -32,43 +35,41 @@
 
 		<article class="project-content">
 			<section class="project-section">
-				<h2 class="section-title">Description</h2>
-				<p class="project-description">{t($locale, `projects.${projectKey}.description`)}</p>
-				<p class="placeholder-text">
-					[Placeholder: Ajouter une description détaillée du projet ici. Inclure le contexte, les
-					objectifs, les défis rencontrés et les solutions apportées.]
-				</p>
+				<h2 class="section-title">{t($locale, `projects.${projectKey}.descriptionTitle`)}</h2>
+				<p class="project-description">{t($locale, `projects.${projectKey}.detailedDescription`)}</p>
 			</section>
 
 			<section class="project-section">
-				<h2 class="section-title">Technologies</h2>
+				<h2 class="section-title">{t($locale, `projects.${projectKey}.technologiesTitle`)}</h2>
 				<div class="tech-tags">
-					<span class="tech-tag">Technology 1</span>
-					<span class="tech-tag">Technology 2</span>
-					<span class="tech-tag">Technology 3</span>
+					{#each t($locale, `projects.${projectKey}.technologies`) as tech}
+						<span class="tech-tag">{tech}</span>
+					{/each}
 				</div>
 			</section>
 
 			<section class="project-section">
-				<h2 class="section-title">Équipe</h2>
+				<h2 class="section-title">{t($locale, `projects.${projectKey}.teamTitle`)}</h2>
 				<div class="team-list">
-					<div class="team-member">
-						<div class="member-avatar">👤</div>
-						<span class="member-name">Membre 1</span>
-					</div>
-					<div class="team-member">
-						<div class="member-avatar">👤</div>
-						<span class="member-name">Membre 2</span>
-					</div>
+					{#each t($locale, `projects.${projectKey}.team`) as member}
+						<div class="team-member">
+							<div class="member-avatar">👤</div>
+							<span class="member-name">{member}</span>
+						</div>
+					{/each}
 				</div>
 			</section>
 
 			<section class="project-section">
-				<h2 class="section-title">Démonstration</h2>
-				<div class="demo-placeholder">
-					<div class="demo-icon">🚀</div>
-					<p class="demo-text">Zone de simulation / démonstration du projet</p>
-					<p class="demo-subtext">[À implémenter avec script JS converti]</p>
+				<h2 class="section-title">{t($locale, `projects.${projectKey}.demoTitle`)}</h2>
+				<div class="demo-container">
+					{#if projectKey === 'project1'}
+						<LeafletDemo />
+					{:else if projectKey === 'project2'}
+						<DijkstraDemo />
+					{:else if projectKey === 'project3'}
+						<OcrDemo />
+					{/if}
 				</div>
 			</section>
 		</article>
@@ -186,16 +187,6 @@
 		margin-bottom: var(--space-4);
 	}
 
-	.placeholder-text {
-		font-size: var(--text-base);
-		color: var(--color-text-muted);
-		font-style: italic;
-		background: rgba(0, 0, 0, 0.2);
-		padding: var(--space-4);
-		border-radius: var(--radius-md);
-		border-left: 4px solid var(--color-warning-orange);
-	}
-
 	.tech-tags {
 		display: flex;
 		flex-wrap: wrap;
@@ -238,30 +229,7 @@
 		color: var(--color-chrome-light);
 	}
 
-	.demo-placeholder {
-		background: rgba(0, 0, 0, 0.3);
-		border: 2px dashed var(--color-chrome-dark);
-		border-radius: var(--radius-lg);
-		padding: var(--space-12);
-		text-align: center;
-	}
-
-	.demo-icon {
-		font-size: var(--text-5xl);
-		margin-bottom: var(--space-4);
-	}
-
-	.demo-text {
-		font-family: var(--font-heading);
-		font-size: var(--text-lg);
-		font-weight: 600;
-		color: var(--color-chrome);
-		margin-bottom: var(--space-2);
-	}
-
-	.demo-subtext {
-		font-size: var(--text-sm);
-		color: var(--color-text-muted);
-		font-style: italic;
+	.demo-container {
+		padding: var(--space-2) 0;
 	}
 </style>

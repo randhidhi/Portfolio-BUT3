@@ -1,12 +1,13 @@
 {
     "header": {
         "home": "Accueil",
-        "language": "FR"
+        "language": "FR",
+        "title": "Portfolio"
     },
     "presentation": {
         "name": "BOU JABER RANDY",
         "status": "Étudiant en BUT Informatique",
-        "tagline": "Passionné par le développement et l'innovation technologique.",
+        "tagline": "Intéressé par le développement et l'innovation technologique.",
         "downloadCV": "Télécharger mon CV"
     },
     "timeline": {
@@ -60,28 +61,94 @@
         "project1": {
             "title": "PROJET TRAVIA",
             "date": "2024",
-            "description": "Description du premier projet..."
+            "description": "Un projet sur le thème de Star Wars fait pour la réservation de vaisseaux spatiaux pour certains vols.",
+            "detailedDescription": "Ce projet était à réaliser en équipe de 4 et consistait à créer un site web de réservation de vols pour des vaisseaux spatiaux sur le thème de Star Wars. Nous avons dû premièrement créer des objets en PHP et une base de données pour stocker les informations des vols et des réservations. Puis, nous devions implémenter une carte Leaflet intéractive pour afficher le trajet du vol choisi, en calculant la distance totale et son coût.",
+            "technologiesTitle": "Technologies utilisées",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "PHP",
+                "Javascript",
+                "MySQL",
+                "Git"
+            ],
+            "teamTitle": "Équipe",
+            "team": [
+                "Randy BOU JABER",
+                "Loïc RAKOTONIARY",
+                "Martial CARCELES",
+                "Jérémy ZHENG"
+            ],
+            "demoTitle": "Démonstration de la carte Leaflet",
+            "demoText": "Zone de simulation / démonstration du projet"
         },
         "project2": {
             "title": "PROJET SPEEDYWIKI",
             "date": "2025",
-            "description": "Description du deuxième projet..."
+            "description": "Un jeu où il faut visiter 5 articles Wikipédia choisis au hasard le plus vite possible.",
+            "detailedDescription": "Ce projet était à réaliser en équipe de 4 et consistait à créer une application web sur laquelle les utilisateurs pouvaient créer des lobbies pour jouer en multijoueur et faire la course pour atteindre les 5 articles Wikipédia choisis au hasard. La complexité technique de ce travail était assez avancée : nous avons dû mettre en place un serveur Websocket pour gérer les différentes actions des joueurs en temps réel, utiliser l'API de Wikipédia pour récupérer les articles choisis et éditer leur contenu pour l'adapter au jeu, et enfin faire en sorte que l'application soit supportée sur mobile. Un solveur Python a également été réalisé pour trouver le chemin le plus court possible entre deux articles.",
+            "technologiesTitle": "Technologies utilisées",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "React",
+                "Typescript",
+                "Node.JS",
+                "Websocket",
+                "MongoDB / MongoDB Atlas",
+                "Python",
+                "Git"
+            ],
+            "teamTitle": "Équipe",
+            "team": [
+                "Randy BOU JABER",
+                "Jules Renaud--Grange",
+                "Martial CARCELES",
+                "Guillaume AUGERAUD"
+            ],
+            "demoTitle": "Démonstration du solveur",
+            "demoText": "Zone de simulation / démonstration du projet"
         },
         "project3": {
             "title": "PROJET PLURI'ELLES",
             "date": "2025 - 2026",
-            "description": "Description du troisième projet..."
+            "description": "Une plateforme faite pour simplifier le processus de recrutement en utilisant l'IA et d'autres technologies complexes pour l'entreprise Pluri'Elles.",
+            "detailedDescription": "Ce projet était à réaliser en équipe de 6 et est le plus complexe des 3 présentés sur ce Portfolio. Deux plateformes webs devaient être créées : une première étant un ATS (Applicant Tracking System) dédiée à la simplification du processus de recrutement de l'entreprise Pluri'Elles (extraction de texte d'un CV par OCR, première orthographique et grammaticale, seconde analyse de contenu, notation en fonction de l'offre et résumé du profil faite par IA), et la seconde étant une plateforme E-Learning pour former les employés de l'entreprise (systèmes de quiz intéractifs, module VR pour certaines formations).",
+            "technologiesTitle": "Technologies utilisées",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "React",
+                "Typescript",
+                "Next.JS",
+                "Python",
+                "Agent Mistral AI",
+                "PostgreSQL",
+                "Prisma",
+                "Git",
+                "Docker"
+            ],
+            "teamTitle": "Équipe",
+            "team": [
+                "Randy BOU JABER",
+                "Julien SYNAEVE",
+                "Alexis TELLE",
+                "Damien TREMERIE",
+                "Hélène RALU--LEROY",
+                "Romain LONCIN"
+            ],
+            "demoTitle": "Démonstration du modèle OCR",
+            "demoText": "Zone de simulation / démonstration du projet"
         }
     },
     "skills": {
         "title": "Mes Compétences",
         "knowledge": {
-            "title": "Savoirs",
+            "title": "Savoirs-faires",
             "subtitle": "Carte Grise",
             "items": [
                 "Algorithmique",
-                "Bases de données",
-                "Réseaux",
+                "Base de données",
                 "Architecture logicielle"
             ]
         },
@@ -91,6 +158,7 @@
             "items": [
                 "Travail en équipe",
                 "Communication",
+                "Gestion du stress",
                 "Adaptabilité",
                 "Autonomie"
             ]
@@ -99,20 +167,25 @@
             "title": "Savoir-faire",
             "subtitle": "Fiche Technique",
             "items": [
-                "JavaScript/TypeScript",
-                "Python",
-                "Java",
-                "SQL",
-                "Git",
-                "Docker"
+                "JavaScript / TypeScript,80",
+                "React,80",
+                "Next.JS,80",
+                "Svelte,75",
+                "Python,70",
+                "Java,70",
+                "Git,60",
+                "C,55",
+                "SQL,55",
+                "Solr,50",
+                "Docker,40"
             ]
         }
     },
     "footer": {
         "contact": "Me Contacter",
-        "phone": "+33 X XX XX XX XX",
-        "email": "email@exemple.com",
-        "linkedin": "linkedin.com/in/placeholder"
+        "phone": "+33 6 56 86 77 08",
+        "email": "randyboujaber@hotmail.fr",
+        "linkedin": "linkedin.com/in/randy-bou-jaber"
     },
     "sections": {
         "presentation": "01",
