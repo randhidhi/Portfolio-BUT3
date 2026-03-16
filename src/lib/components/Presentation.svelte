@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { t, locale } from '../../messages/i18n';
+	import { base } from '$app/paths';
 </script>
 
 <div class="presentation">
@@ -9,7 +10,7 @@
 			<p class="status">{t($locale, 'presentation.status')}</p>
 			<p class="tagline">{t($locale, 'presentation.tagline')}</p>
 
-			<a href="/documents/CV.pdf" download class="btn btn-primary cv-btn">
+			<a href="{base}/documents/CV.pdf" download class="btn btn-primary cv-btn">
 				<svg class="cv-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
 					<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
 					<polyline points="7,10 12,15 17,10" />

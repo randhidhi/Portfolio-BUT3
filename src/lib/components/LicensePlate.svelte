@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { t, locale } from '../../messages/i18n';
+	import { base } from '$app/paths';
 
 	interface Props {
 		title: string;
@@ -22,7 +23,7 @@
 
 	<div class="plate-white">
 		<p class="plate-description">{description}</p>
-		<a href="/projects/{slug}" class="plate-btn">
+		<a href="{base}/projects/{slug}" class="plate-btn">
 			{t($locale, 'projects.viewProject')}
 			<svg
 				class="arrow-icon"

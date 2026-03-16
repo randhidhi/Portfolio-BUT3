@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { t, locale } from '../../../messages/i18n';
+	import { base } from '$app/paths';
 	import LeafletDemo from '$lib/components/demos/LeafletDemo.svelte';
 	import DijkstraDemo from '$lib/components/demos/DijkstraDemo.svelte';
 	import OcrDemo from '$lib/components/demos/OcrDemo.svelte';
@@ -17,7 +18,7 @@
 
 <main class="project-page">
 	<div class="project-container">
-		<a href="/#projects" class="back-link">
+		<a href="{base}/#projects" class="back-link">
 			<svg class="back-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
 				<line x1="19" y1="12" x2="5" y2="12"></line>
 				<polyline points="12 19 5 12 12 5"></polyline>
