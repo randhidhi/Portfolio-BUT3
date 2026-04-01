@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { t, locale } from '../../messages/i18n';
 	interface Props {
 		title: string;
 		subtitle: string;
@@ -23,7 +24,7 @@
 			</svg>
 		</div>
 		<div class="sheet-title-area">
-			<span class="sheet-badge">FICHE TECHNIQUE</span>
+			<span class="sheet-badge">{t($locale, 'skills.hardSkills.sectionTitle')}</span>
 			<h3 class="sheet-title">{title}</h3>
 			<p class="sheet-subtitle">{subtitle}</p>
 		</div>
@@ -46,7 +47,7 @@
 	<div class="sheet-footer">
 		<div class="engine-badge">
 			<span class="engine-icon">⚙️</span>
-			<span class="engine-text">TECH STACK</span>
+			<span class="engine-text">{t($locale, 'skills.hardSkills.techStack')}</span>
 		</div>
 	</div>
 </div>

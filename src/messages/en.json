@@ -144,6 +144,7 @@
     "skills": {
         "title": "Hard Skills",
         "knowledge": {
+            "sectionTitle": "REGISTRATION CARD",
             "title": "Knowledge",
             "subtitle": "Registration Card",
             "items": [
@@ -153,7 +154,9 @@
             ]
         },
         "softSkills": {
+            "sectionTitle": "DRIVER'S LICENSE",
             "title": "Soft Skills",
+            "language": "FR",
             "subtitle": "Driver's License",
             "items": [
                 "Teamwork",
@@ -164,6 +167,7 @@
             ]
         },
         "hardSkills": {
+            "sectionTitle": "TECHNICAL SHEET",
             "title": "Hard Skills",
             "subtitle": "Technical Sheet",
             "items": [
@@ -178,7 +182,8 @@
                 "SQL,55",
                 "Solr,50",
                 "Docker,40"
-            ]
+            ],
+            "techStack": "TECH STACK"
         }
     },
     "academicSkills": {

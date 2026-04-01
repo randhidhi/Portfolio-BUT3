@@ -144,6 +144,7 @@
     "skills": {
         "title": "Mes Compétences",
         "knowledge": {
+            "sectionTitle": "CERTIFICAT D'IMMATRICULATION",
             "title": "Savoirs-faires",
             "subtitle": "Carte Grise",
             "items": [
@@ -153,7 +154,9 @@
             ]
         },
         "softSkills": {
+            "sectionTitle": "PERMIS DE CONDUIRE",
             "title": "Savoir-êtres",
+            "language": "FR",
             "subtitle": "Permis de Conduire",
             "items": [
                 "Travail en équipe",
@@ -164,6 +167,7 @@
             ]
         },
         "hardSkills": {
+            "sectionTitle": "FICHE TECHNIQUE",
             "title": "Savoir-faire",
             "subtitle": "Fiche Technique",
             "items": [
@@ -178,7 +182,8 @@
                 "SQL,55",
                 "Solr,50",
                 "Docker,40"
-            ]
+            ],
+            "techStack": "STACK TECHNIQUE"
         }
     },
     "academicSkills": {

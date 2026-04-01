@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { t, locale } from '../../messages/i18n';
 	interface Props {
 		title: string;
 		subtitle: string;
@@ -17,8 +18,8 @@
 
 	<div class="license-content">
 		<div class="license-header">
-			<span class="license-type">PERMIS DE CONDUIRE</span>
-			<span class="license-country">FR</span>
+			<span class="license-type">{t($locale, 'skills.softSkills.sectionTitle')}</span>
+			<span class="license-country">{t($locale, 'skills.softSkills.language')}</span>
 		</div>
 
 		<h3 class="license-title">{title}</h3>
@@ -151,28 +152,5 @@
 		font-family: var(--font-display);
 		font-weight: 700;
 		color: var(--color-racing-red);
-	}
-
-	.license-chip {
-		position: absolute;
-		bottom: var(--space-4);
-		right: var(--space-4);
-		width: 40px;
-		height: 30px;
-		background: linear-gradient(135deg, #ffd700, #ffb347);
-		border-radius: var(--radius-sm);
-		box-shadow: var(--shadow-sm);
-	}
-
-	.license-chip::after {
-		content: '';
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		width: 20px;
-		height: 15px;
-		border: 1px solid rgba(0, 0, 0, 0.2);
-		border-radius: 2px;
 	}
 </style>

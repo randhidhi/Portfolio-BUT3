@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { t, locale } from '../../messages/i18n';
 	interface Props {
 		title: string;
 		subtitle: string;
@@ -10,7 +11,7 @@
 
 <div class="card registration-card">
 	<div class="card-header">
-		<div class="card-badge">CERTIFICAT D'IMMATRICULATION</div>
+		<div class="card-badge">{t($locale, 'skills.knowledge.sectionTitle')}</div>
 		<span class="card-subtitle">{subtitle}</span>
 	</div>
 
