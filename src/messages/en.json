@@ -181,6 +181,31 @@
             ]
         }
     },
+    "academicSkills": {
+        "title": "Academic Skills",
+        "skill1": {
+            "name": "Execute",
+            "description": "Adapt applications across multiple platforms (embedded, web, mobile, ...)",
+            "sub1": "AC31.01 — Choose and implement appropriate architectures",
+            "sub2": "AC31.02 — Evolve an existing application",
+            "sub3": "AC31.03 — Integrate solutions into a production environment"
+        },
+        "skill2": {
+            "name": "Optimize",
+            "description": "Analyze and optimize applications",
+            "sub1": "AC32.01 — Anticipate results of various metrics (execution time, memory usage, load scaling...)",
+            "sub2": "AC32.02 — Profile, analyze and justify the behavior of existing code",
+            "sub3": "AC32.03 — Choose and use libraries and methods dedicated to the application domain (imaging, immersion, AI, video games, parallelism, computer algebra...)"
+        },
+        "skill3": {
+            "name": "Collaborate",
+            "description": "Manage an IT team",
+            "sub1": "AC36.01 — Organize and share a technological and informational watch",
+            "sub2": "AC36.02 — Identify the stakes of the digital innovation economy",
+            "sub3": "AC36.03 — Guide IT change management within an organization",
+            "sub4": "AC36.04 — Support IT project management"
+        }
+    },
     "footer": {
         "contact": "Contact Me",
         "phone": "+33 6 56 86 77 08",
@@ -191,6 +216,7 @@
         "presentation": "01",
         "timeline": "02",
         "projects": "03",
-        "skills": "04"
+        "skills": "04",
+        "academicSkills": "05"
     }
 }

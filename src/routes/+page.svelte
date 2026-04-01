@@ -5,6 +5,7 @@
 	import Projects from '$lib/components/Projects.svelte';
 	import Skills from '$lib/components/Skills.svelte';
 	import { t, locale } from '../messages/i18n';
+	import AcademicSkills from '$lib/components/AcademicSkills.svelte';
 </script>
 
 <svelte:head>
@@ -30,6 +31,10 @@
 
 	<Section id="skills" number={t($locale, 'sections.skills')}>
 		<Skills />
+	</Section>
+
+	<Section id="academicSkills" number={t($locale, 'sections.academicSkills')}>
+		<AcademicSkills />
 	</Section>
 </main>
 

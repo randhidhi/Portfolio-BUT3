@@ -181,6 +181,31 @@
             ]
         }
     },
+    "academicSkills": {
+        "title": "Compétences Académiques",
+        "skill1": {
+            "name": "Réaliser",
+            "description": "Adapter des applications sur un ensemble de supports (embarqué, web, mobile, ...)",
+            "sub1": "AC31.01 — Choisir et implémenter les architectures adaptées",
+            "sub2": "AC31.02 — Faire évoluer une application existante",
+            "sub3": "AC31.03 — Intégrer des solutions dans un environnement de production"
+        },
+        "skill2": {
+            "name": "Optimiser",
+            "description": "Analyser et optimiser des applications",
+            "sub1": "AC32.01 — Anticiper les résultats de diverses métriques (temps d'exécution, occupation mémoire, montée en charge...)",
+            "sub2": "AC32.02 — Profiler, analyser et justifier le comportement d'un code existant",
+            "sub3": "AC32.03 — Choisir et utiliser des bibliothèques et méthodes dédiées au domaine d'application (imagerie, immersion, intelligence artificielle, jeux vidéos, parallélisme, calcul formel...)"
+        },
+        "skill3": {
+            "name": "Collaborer",
+            "description": "Manager une équipe informatique",
+            "sub1": "AC36.01 — Organiser et partager une veille technologique et informationnelle",
+            "sub2": "AC36.02 — Identifier les enjeux de l'économie de l'innovation numérique",
+            "sub3": "AC36.03 — Guider la conduite du changement informatique au sein d'une organisation",
+            "sub4": "AC36.04 — Accompagner le management de projet informatique"
+        }
+    },
     "footer": {
         "contact": "Me Contacter",
         "phone": "+33 6 56 86 77 08",
@@ -191,6 +216,7 @@
         "presentation": "01",
         "timeline": "02",
         "projects": "03",
-        "skills": "04"
+        "skills": "04",
+        "academicSkills": "05"
     }
 }

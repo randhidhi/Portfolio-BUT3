@@ -33,8 +33,6 @@
 			{/each}
 		</div>
 	</div>
-
-	<div class="license-chip"></div>
 </div>
 
 <style>

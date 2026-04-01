@@ -53,7 +53,7 @@
 
 		// Generate nodes with Poisson-like spacing
 		nodes = [];
-		const minDist = Math.max(40, Math.sqrt((w * h) / nodeCount) * 0.6);
+		const minDist = Math.max(15, Math.sqrt((w * h) / nodeCount) * 0.6);
 		let attempts = 0;
 
 		while (nodes.length < nodeCount && attempts < nodeCount * 50) {
@@ -775,6 +775,19 @@
 		.stats-row {
 			flex-direction: column;
 			gap: var(--space-2);
+		}
+	}
+
+	@media (max-width: 400px) {
+		.actions-row {
+			flex-direction: column;
+			align-items: stretch;
+		}
+
+		.action-btn {
+			width: 100%;
+			justify-content: center;
+			text-align: center;
 		}
 	}
 </style>

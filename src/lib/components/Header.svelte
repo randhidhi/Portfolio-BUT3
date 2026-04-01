@@ -1,11 +1,17 @@
 <script lang="ts">
 	import { base } from '$app/paths';
+	import { goto } from '$app/navigation';
 	import { setLocale, locale, t } from '../../messages/i18n';
+
+	function goHome(e: MouseEvent) {
+		e.preventDefault();
+		goto(`${base}/`);
+	}
 </script>
 
 <header class="header">
 	<div class="header-container">
-		<a class="logo-btn" href="/Portfolio-BUT3" aria-label={t($locale, 'header.home')}>
+		<a class="logo-btn" href="{base}/" onclick={goHome} aria-label={t($locale, 'header.home')}>
 			<span class="logo-text">{t($locale, 'header.title').toUpperCase()}</span>
 			<span class="logo-accent">.</span>
 		</a>

@@ -149,6 +149,8 @@
 		color: var(--color-carbon);
 		letter-spacing: 0.05em;
 		margin-left: var(--space-4);
+		overflow-wrap: break-word;
+		word-break: break-word;
 	}
 
 	.project-date {
