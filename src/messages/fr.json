@@ -145,7 +145,7 @@
         "title": "Mes Compétences",
         "knowledge": {
             "sectionTitle": "CERTIFICAT D'IMMATRICULATION",
-            "title": "Savoirs-faires",
+            "title": "Savoir-faire",
             "subtitle": "Carte Grise",
             "items": [
                 "Algorithmique",
@@ -155,7 +155,7 @@
         },
         "softSkills": {
             "sectionTitle": "PERMIS DE CONDUIRE",
-            "title": "Savoir-êtres",
+            "title": "Savoir-être",
             "language": "FR",
             "subtitle": "Permis de Conduire",
             "items": [
@@ -168,7 +168,7 @@
         },
         "hardSkills": {
             "sectionTitle": "FICHE TECHNIQUE",
-            "title": "Savoir-faire",
+            "title": "Compétences techniques",
             "subtitle": "Fiche Technique",
             "items": [
                 "JavaScript / TypeScript,80",
